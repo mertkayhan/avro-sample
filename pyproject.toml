@@ -1,0 +1,17 @@
+[tool.poetry]
+authors = ["Mert Kayhan <mk@fsncapital.com>"]
+description = "Avro Sample"
+name = "avro-sample"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+fastavro = "^1.4.11"
+python = "^3.8"
+python-snappy = "^0.6.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
